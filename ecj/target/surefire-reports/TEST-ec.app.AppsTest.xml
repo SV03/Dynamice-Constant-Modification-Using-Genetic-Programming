@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="92" failures="0" name="ec.app.AppsTest" time="39.426" errors="2" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/jre/lib"/>
+    <property name="java.vm.version" value="25.191-b12"/>
+    <property name="gopherProxySet" value="false"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=":"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.country" value="GB"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/Users/sarath/Desktop/ecj_2_fixed/ecj"/>
+    <property name="java.runtime.version" value="1.8.0_191-b12"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/jre/lib/endorsed"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.io.tmpdir" value="/var/folders/tf/h32ncn157txbndcdqj9wr_h40000gn/T/"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="maven.ext.class.path" value="/Applications/NetBeans/NetBeans 8.2.app/Contents/Resources/NetBeans/java/maven-nblib/netbeans-eventspy.jar"/>
+    <property name="classworlds.conf" value="/Applications/NetBeans/NetBeans 8.2.app/Contents/Resources/NetBeans/java/maven/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/sarath/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.14"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="user.home" value="/Users/sarath"/>
+    <property name="user.timezone" value="Europe/London"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="sarath"/>
+    <property name="java.class.path" value="/Applications/NetBeans/NetBeans 8.2.app/Contents/Resources/NetBeans/java/maven/boot/plexus-classworlds-2.4.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -Dmaven.ext.class.path=/Applications/NetBeans/NetBeans 8.2.app/Contents/Resources/NetBeans/java/maven-nblib/netbeans-eventspy.jar clean install"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_191"/>
+    <property name="java.ext.dirs" value="/Users/sarath/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
+    <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/jre/classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="/Applications/NetBeans/NetBeans 8.2.app/Contents/Resources/NetBeans/java/maven"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase classname="ec.app.AppsTest" name="testIfRuns[0: src\/main\/resources\/ec\/app\/ant\/ant.params]" time="0.159"/>
+  <testcase classname="ec.app.AppsTest" name="testIfRuns[1: src\/main\/resources\/ec\/app\/ant\/ge.params]" time="0.086"/>
+  <testcase classname="ec.app.AppsTest" name="testIfRuns[2: src\/main\/resources\/ec\/app\/ant\/progn4.params]" time="0.08"/>
+  <testcase classname="ec.app.AppsTest" name="testIfRuns[3: src\/main\/resources\/ec\/app\/xor\/xor.params]" time="0.066"/>
+  <testcase classname="ec.app.AppsTest" name="testIfRuns[4: src\/main\/resources\/ec\/app\/highdimension\/highdimension.params]" time="0.034"/>
+  <testcase classname="ec.app.AppsTest" name="testIfRuns[5: src\/main\/resources\/ec\/app\/majority\/majorityga.params]" time="20.087"/>
+  <testcase classname="ec.app.AppsTest" name="testIfRuns[6: src\/main\/resources\/ec\/app\/majority\/majoritygp.params]" time="5.267"/>
+  <testcase classname="ec.app.AppsTest" name="testIfRuns[7: src\/main\/resources\/ec\/app\/tutorial3\/tutorial3.params]" time="0.022"/>
+  <testcase classname="ec.app.AppsTest" name="testIfRuns[8: src\/main\/resources\/ec\/app\/twobox\/adf.params]" time="0.044"/>
+  <testcase classname="ec.app.AppsTest" name="testIfRuns[9: src\/main\/resources\/ec\/app\/twobox\/noadf.params]" time="0.018"/>
+  <testcase classname="ec.app.AppsTest" name="testIfRuns[10: src\/main\/resources\/ec\/app\/tutorial4\/tutorial4.params]" time="0.02"/>
+  <testcase classname="ec.app.AppsTest" name="testIfRuns[11: src\/main\/resources\/ec\/app\/lawnmower\/adf.params]" time="0.039"/>
+  <testcase classname="ec.app.AppsTest" name="testIfRuns[12: src\/main\/resources\/ec\/app\/lawnmower\/noadf.params]" time="0.011"/>
+  <testcase classname="ec.app.AppsTest" name="testIfRuns[13: src\/main\/resources\/ec\/app\/lawnmower\/ge.params]" time="0.025"/>
+  <testcase classname="ec.app.AppsTest" name="testIfRuns[14: src\/main\/resources\/ec\/app\/singular\/singular.params]" time="0.006"/>
+  <testcase classname="ec.app.AppsTest" name="testIfRuns[15: src\/main\/resources\/ec\/app\/tutorial2\/tutorial2.params]" time="0.006"/>
+  <testcase classname="ec.app.AppsTest" name="testIfRuns[16: src\/main\/resources\/ec\/app\/multiplexer\/3.params]" time="0.017"/>
+  <testcase classname="ec.app.AppsTest" name="testIfRuns[17: src\/main\/resources\/ec\/app\/multiplexer\/11.params]" time="0.037"/>
+  <testcase classname="ec.app.AppsTest" name="testIfRuns[18: src\/main\/resources\/ec\/app\/multiplexer\/6.params]" time="0.011"/>
+  <testcase classname="ec.app.AppsTest" name="testIfRuns[19: src\/main\/resources\/ec\/app\/coevolve1\/coevolve1.params]" time="0.012"/>
+  <testcase classname="ec.app.AppsTest" name="testIfRuns[20: src\/main\/resources\/ec\/app\/ordertree\/ordertree.params]" time="0.02"/>
+  <testcase classname="ec.app.AppsTest" name="testIfRuns[21: src\/main\/resources\/ec\/app\/parity\/adf.params]" time="0.037"/>
+  <testcase classname="ec.app.AppsTest" name="testIfRuns[22: src\/main\/resources\/ec\/app\/parity\/parity.params]" time="0.636"/>
+  <testcase classname="ec.app.AppsTest" name="testIfRuns[23: src\/main\/resources\/ec\/app\/edge\/5.params]" time="0.178"/>
+  <testcase classname="ec.app.AppsTest" name="testIfRuns[24: src\/main\/resources\/ec\/app\/edge\/7.params]" time="0.09"/>
+  <testcase classname="ec.app.AppsTest" name="testIfRuns[25: src\/main\/resources\/ec\/app\/edge\/3.params]" time="0.082"/>
+  <testcase classname="ec.app.AppsTest" name="testIfRuns[26: src\/main\/resources\/ec\/app\/edge\/1.params]" time="0.017"/>
+  <testcase classname="ec.app.AppsTest" name="testIfRuns[27: src\/main\/resources\/ec\/app\/edge\/4.params]" time="0.043"/>
+  <testcase classname="ec.app.AppsTest" name="testIfRuns[28: src\/main\/resources\/ec\/app\/edge\/6.params]" time="0.025"/>
+  <testcase classname="ec.app.AppsTest" name="testIfRuns[29: src\/main\/resources\/ec\/app\/edge\/2.params]" time="0.021"/>
+  <testcase classname="ec.app.AppsTest" name="testIfRuns[30: src\/main\/resources\/ec\/app\/ecsuite\/single.params]" time="0.041"/>
+  <testcase classname="ec.app.AppsTest" name="testIfRuns[31: src\/main\/resources\/ec\/app\/ecsuite\/ecsuite.params]" time="0.053"/>
+  <testcase classname="ec.app.AppsTest" name="testIfRuns[32: src\/main\/resources\/ec\/app\/ecsuite\/de.params]" time="0.067"/>
+  <testcase classname="ec.app.AppsTest" name="testIfRuns[33: src\/main\/resources\/ec\/app\/ecsuite\/es.params]" time="0.066"/>
+  <testcase classname="ec.app.AppsTest" name="testIfRuns[34: src\/main\/resources\/ec\/app\/ecsuite\/cmaes.params]" time="0.039"/>
+  <testcase classname="ec.app.AppsTest" name="testIfRuns[35: src\/main\/resources\/ec\/app\/ecsuite\/sa.params]" time="0.073"/>
+  <testcase classname="ec.app.AppsTest" name="testIfRuns[36: src\/main\/resources\/ec\/app\/ecsuite\/hcsteep.params]" time="0.029"/>
+  <testcase classname="ec.app.AppsTest" name="testIfRuns[37: src\/main\/resources\/ec\/app\/ecsuite\/meta.params]" time="5.3"/>
+  <testcase classname="ec.app.AppsTest" name="testIfRuns[38: src\/main\/resources\/ec\/app\/ecsuite\/amalgam.params]" time="0.011"/>
+  <testcase classname="ec.app.AppsTest" name="testIfRuns[39: src\/main\/resources\/ec\/app\/ecsuite\/pso.params]" time="0.085"/>
+  <testcase classname="ec.app.AppsTest" name="testIfRuns[40: src\/main\/resources\/ec\/app\/ecsuite\/hc.params]" time="0.032"/>
+  <testcase classname="ec.app.AppsTest" name="testIfRuns[41: src\/main\/resources\/ec\/app\/ecsuite\/hcsteepwr.params]" time="0.029"/>
+  <testcase classname="ec.app.AppsTest" name="testIfRuns[42: src\/main\/resources\/ec\/app\/ecsuite\/steady.params]" time="0.084"/>
+  <testcase classname="ec.app.AppsTest" name="testIfRuns[43: src\/main\/resources\/ec\/app\/ecsuite\/base.params]" time="0.035"/>
+  <testcase classname="ec.app.AppsTest" name="testIfRuns[44: src\/main\/resources\/ec\/app\/moosuite\/zdt4.params]" time="0.012"/>
+  <testcase classname="ec.app.AppsTest" name="testIfRuns[45: src\/main\/resources\/ec\/app\/moosuite\/zdt6.params]" time="0.01"/>
+  <testcase classname="ec.app.AppsTest" name="testIfRuns[46: src\/main\/resources\/ec\/app\/moosuite\/zdt2.params]" time="0.012"/>
+  <testcase classname="ec.app.AppsTest" name="testIfRuns[47: src\/main\/resources\/ec\/app\/moosuite\/unconstrained-f3.params]" time="0.012"/>
+  <testcase classname="ec.app.AppsTest" name="testIfRuns[48: src\/main\/resources\/ec\/app\/moosuite\/fon.params]" time="0.006"/>
+  <testcase classname="ec.app.AppsTest" name="testIfRuns[49: src\/main\/resources\/ec\/app\/moosuite\/sphere.params]" time="0.016"/>
+  <testcase classname="ec.app.AppsTest" name="testIfRuns[50: src\/main\/resources\/ec\/app\/moosuite\/f2.params]" time="0.007"/>
+  <testcase classname="ec.app.AppsTest" name="testIfRuns[51: src\/main\/resources\/ec\/app\/moosuite\/pol.params]" time="0.006"/>
+  <testcase classname="ec.app.AppsTest" name="testIfRuns[52: src\/main\/resources\/ec\/app\/moosuite\/kur.params]" time="0.004"/>
+  <testcase classname="ec.app.AppsTest" name="testIfRuns[53: src\/main\/resources\/ec\/app\/moosuite\/zdt3.params]" time="0.012"/>
+  <testcase classname="ec.app.AppsTest" name="testIfRuns[54: src\/main\/resources\/ec\/app\/moosuite\/sch.params]" time="0.006"/>
+  <testcase classname="ec.app.AppsTest" name="testIfRuns[55: src\/main\/resources\/ec\/app\/moosuite\/zdt1.params]" time="0.012"/>
+  <testcase classname="ec.app.AppsTest" name="testIfRuns[56: src\/main\/resources\/ec\/app\/moosuite\/qv.params]" time="0.037"/>
+  <testcase classname="ec.app.AppsTest" name="testIfRuns[57: src\/main\/resources\/ec\/app\/push\/regression.params]" time="0.863"/>
+  <testcase classname="ec.app.AppsTest" name="testIfRuns[58: src\/main\/resources\/ec\/app\/klandscapes\/klandscapes.params]" time="0.014"/>
+  <testcase classname="ec.app.AppsTest" name="testIfRuns[59: src\/main\/resources\/ec\/app\/sum\/sum.params]" time="0.004"/>
+  <testcase classname="ec.app.AppsTest" name="testIfRuns[60: src\/main\/resources\/ec\/app\/sum\/steadysum.params]" time="0.005"/>
+  <testcase classname="ec.app.AppsTest" name="testIfRuns[61: src\/main\/resources\/ec\/app\/sum\/pbil.params]" time="0.029"/>
+  <testcase classname="ec.app.AppsTest" name="testIfRuns[62: src\/main\/resources\/ec\/app\/lid\/lid.params]" time="0.088"/>
+  <testcase classname="ec.app.AppsTest" name="testIfRuns[63: src\/main\/resources\/ec\/app\/sat\/sat.params]" time="0.089"/>
+  <testcase classname="ec.app.AppsTest" name="testIfRuns[64: src\/main\/resources\/ec\/app\/gui\/ant.params]" time="0.009">
+    <error message="
+Class not found: ec.app.gui.SimpleXYSeriesChartStatistics
+PARAMETER: stat.child.0
+     ALSO: 
+EXCEPTION: 
+
+java.lang.ClassNotFoundException: ec.app.gui.SimpleXYSeriesChartStatistics" type="ec.util.ParamClassLoadException">ec.util.ParamClassLoadException: 
+Class not found: ec.app.gui.SimpleXYSeriesChartStatistics
+PARAMETER: stat.child.0
+     ALSO: 
+EXCEPTION: 
+
+java.lang.ClassNotFoundException: ec.app.gui.SimpleXYSeriesChartStatistics
+	at ec.util.ParameterDatabase.getInstanceForParameterEq(ParameterDatabase.java:613)
+	at ec.Statistics.setup(Statistics.java:108)
+	at ec.simple.SimpleStatistics.setup(SimpleStatistics.java:101)
+	at ec.EvolutionState.setup(EvolutionState.java:406)
+	at ec.simple.SimpleEvolutionState.startFresh(SimpleEvolutionState.java:46)
+	at ec.EvolutionState.run(EvolutionState.java:471)
+	at ec.app.AppsTest.testIfRuns(AppsTest.java:134)
+	at sun.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4TestSet.execute(JUnit4TestSet.java:53)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:123)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:104)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:164)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:110)
+	at org.apache.maven.surefire.booter.SurefireStarter.invokeProvider(SurefireStarter.java:175)
+	at org.apache.maven.surefire.booter.SurefireStarter.runSuitesInProcessWhenForked(SurefireStarter.java:107)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:68)
+</error>
+    <system-err>Apr 03, 2019 12:39:17 AM ec.app.AppsTest testIfRuns
+INFO: Testing src/main/resources/ec/app/gui/ant.params
+</system-err>
+  </testcase>
+  <testcase classname="ec.app.AppsTest" name="testIfRuns[65: src\/main\/resources\/ec\/app\/gui\/coevolve2.params]" time="0.004">
+    <error message="
+Class not found: ec.app.gui.SimpleXYSeriesChartStatistics
+PARAMETER: stat.child.0
+     ALSO: 
+EXCEPTION: 
+
+java.lang.ClassNotFoundException: ec.app.gui.SimpleXYSeriesChartStatistics" type="ec.util.ParamClassLoadException">ec.util.ParamClassLoadException: 
+Class not found: ec.app.gui.SimpleXYSeriesChartStatistics
+PARAMETER: stat.child.0
+     ALSO: 
+EXCEPTION: 
+
+java.lang.ClassNotFoundException: ec.app.gui.SimpleXYSeriesChartStatistics
+	at ec.util.ParameterDatabase.getInstanceForParameterEq(ParameterDatabase.java:613)
+	at ec.Statistics.setup(Statistics.java:108)
+	at ec.simple.SimpleStatistics.setup(SimpleStatistics.java:101)
+	at ec.EvolutionState.setup(EvolutionState.java:406)
+	at ec.simple.SimpleEvolutionState.startFresh(SimpleEvolutionState.java:46)
+	at ec.EvolutionState.run(EvolutionState.java:471)
+	at ec.app.AppsTest.testIfRuns(AppsTest.java:134)
+	at sun.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4TestSet.execute(JUnit4TestSet.java:53)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:123)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:104)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:164)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:110)
+	at org.apache.maven.surefire.booter.SurefireStarter.invokeProvider(SurefireStarter.java:175)
+	at org.apache.maven.surefire.booter.SurefireStarter.runSuitesInProcessWhenForked(SurefireStarter.java:107)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:68)
+</error>
+    <system-err>Apr 03, 2019 12:39:17 AM ec.app.AppsTest testIfRuns
+INFO: Testing src/main/resources/ec/app/gui/coevolve2.params
+</system-err>
+  </testcase>
+  <testcase classname="ec.app.AppsTest" name="testIfRuns[66: src\/main\/resources\/ec\/app\/nk\/nk.params]" time="0.025"/>
+  <testcase classname="ec.app.AppsTest" name="testIfRuns[67: src\/main\/resources\/ec\/app\/coevolve2\/coevolve2.params]" time="0.074"/>
+  <testcase classname="ec.app.AppsTest" name="testIfRuns[68: src\/main\/resources\/ec\/app\/mona\/mona.params]" time="3.309"/>
+  <testcase classname="ec.app.AppsTest" name="testIfRuns[69: src\/main\/resources\/ec\/app\/tutorial1\/tutorial1.params]" time="0.004"/>
+  <testcase classname="ec.app.AppsTest" name="testIfRuns[70: src\/main\/resources\/ec\/app\/royaltree\/royaltree.params]" time="0.475"/>
+  <testcase classname="ec.app.AppsTest" name="testIfRuns[71: src\/main\/resources\/ec\/app\/multiplexerslow\/3.params]" time="0.023"/>
+  <testcase classname="ec.app.AppsTest" name="testIfRuns[72: src\/main\/resources\/ec\/app\/multiplexerslow\/11.params]" time="0.293"/>
+  <testcase classname="ec.app.AppsTest" name="testIfRuns[73: src\/main\/resources\/ec\/app\/multiplexerslow\/6.params]" time="0.023"/>
+  <testcase classname="ec.app.AppsTest" name="testIfRuns[74: src\/main\/resources\/ec\/app\/gpsemantics\/semantic.params]" time="0.04"/>
+  <testcase classname="ec.app.AppsTest" name="testIfRuns[75: src\/main\/resources\/ec\/app\/gpsemantics\/majority.params]" time="0.009"/>
+  <testcase classname="ec.app.AppsTest" name="testIfRuns[76: src\/main\/resources\/ec\/app\/gpsemantics\/order.params]" time="0.005"/>
+  <testcase classname="ec.app.AppsTest" name="testIfRuns[77: src\/main\/resources\/ec\/app\/regression\/benchmark.params]" time="0.101"/>
+  <testcase classname="ec.app.AppsTest" name="testIfRuns[78: src\/main\/resources\/ec\/app\/regression\/noerc2.params]" time="0.036"/>
+  <testcase classname="ec.app.AppsTest" name="testIfRuns[79: src\/main\/resources\/ec\/app\/regression\/quinticnoerc.params]" time="0.031"/>
+  <testcase classname="ec.app.AppsTest" name="testIfRuns[80: src\/main\/resources\/ec\/app\/regression\/noerc.params]" time="0.018"/>
+  <testcase classname="ec.app.AppsTest" name="testIfRuns[81: src\/main\/resources\/ec\/app\/regression\/erc.params]" time="0.019"/>
+  <testcase classname="ec.app.AppsTest" name="testIfRuns[82: src\/main\/resources\/ec\/app\/regression\/ge.params]" time="0.047"/>
+  <testcase classname="ec.app.AppsTest" name="testIfRuns[83: src\/main\/resources\/ec\/app\/regression\/sexticerc.params]" time="0.066"/>
+  <testcase classname="ec.app.AppsTest" name="testIfRuns[84: src\/main\/resources\/ec\/app\/regression\/sexticnoerc.params]" time="0.032"/>
+  <testcase classname="ec.app.AppsTest" name="testIfRuns[85: src\/main\/resources\/ec\/app\/regression\/steadynoerc.params]" time="0.045"/>
+  <testcase classname="ec.app.AppsTest" name="testIfRuns[86: src\/main\/resources\/ec\/app\/regression\/quinticerc.params]" time="0.02"/>
+  <testcase classname="ec.app.AppsTest" name="testIfRuns[87: src\/main\/resources\/ec\/app\/spatial\/spatial.params]" time="0.008"/>
+  <testcase classname="ec.app.AppsTest" name="testIfRuns[88: src\/main\/resources\/ec\/app\/spatial\/spatialcoevolve.params]" time="0.006"/>
+  <testcase classname="ec.app.AppsTest" name="testIfRuns[89: src\/main\/resources\/ec\/app\/hiff\/hiff.params]" time="0.03"/>
+  <testcase classname="ec.app.AppsTest" name="testIfRuns[90: src\/main\/resources\/ec\/app\/bbob\/de.params]" time="0.162"/>
+  <testcase classname="ec.app.AppsTest" name="testIfRuns[91: src\/main\/resources\/ec\/app\/bbob\/bbob.params]" time="0.06"/>
+</testsuite>
